@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Datos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese datos"
+        android:textSize="60dp"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="215dp"
+        android:background="@color/verdesito"
+
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="cursive"
+            android:text="Codigo"
+            android:textColor="@color/white"
+            android:textSize="45dp" />
+
+        <EditText
+            android:id="@+id/codigo"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="110dp"
+            android:textColor="@color/white"
+            android:hint="Codigo ciudad"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@color/verdesito"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="cursive"
+            android:text="Nombre"
+            android:textColor="@color/white"
+            android:textSize="45dp" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="110dp"
+            android:textColor="@color/white"
+            android:hint="nombre ciudad
+h"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/insertar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insertar"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:backgroundTint="@color/verdesito"
+        android:textColor="@color/white"
+        android:fontFamily="cursive"
+        android:textSize="30dp"/>
+
+</LinearLayout>
